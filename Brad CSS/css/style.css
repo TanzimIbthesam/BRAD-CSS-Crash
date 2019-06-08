@@ -1,0 +1,163 @@
+body{
+    background: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    /* font: Arial, Helvetica, sans-serif,bold,16px; */
+    line-height:1.5em;
+    margin: 0;
+    padding: 0;
+}
+.clr{
+    clear: both;
+}
+.box-1{
+    background-color: #333;
+    color:#ffff;
+    border:5px solid red;
+    border-bottom:10px solid red;
+    padding:20px;
+    margin:20px 0;
+}
+.box-1 h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    text-align:center;
+    text-decoration:underline;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.container{
+    /* width:500px; */
+    width:80%;
+    margin: auto;
+}
+.box-2{
+    border:3px dotted silver;
+    margin-top:20px;
+    padding:20px;
+}
+.categories{
+    border:1px solid #ccc;
+    padding:10px;
+    border-radius:15px;
+    margin:20px 0;
+}
+.categories ul{
+    padding: 0;
+    padding-left:20px;
+    
+}
+.categories ul li{
+    /* display: inline; */
+    list-style-type:none;
+    text-decoration: none;
+    border-bottom:1px solid #333;
+    list-style-image: url('../img/checkmark.png');
+}
+.categories ul li a{
+    text-decoration: none;
+    
+}
+.categories ul li a:active{
+    color:greenyellow;
+}
+.categories ul li a:hover{
+    color:lightcoral;
+}
+.my-form{
+    padding:20px;
+}
+.form-group{
+    padding-bottom:15px;
+}
+.my-form .form-group label{
+display:block;
+}
+.my-form .form-group  input[type="text"] {
+    padding:8px;
+    width:50%;
+}
+.my-form .form-group  textarea{
+    padding:8px;
+    width:50%;
+}
+.my-form  input[type="button"]{
+    background-color: #333;
+    color:white;
+    padding:20px;
+    text-transform: uppercase;
+    letter-spacing:0.1em;
+}
+.button{
+    background-color: #333;
+    color:white;
+    padding:10px 15px;
+    text-transform: uppercase;
+    letter-spacing:0.1em;
+    text-decoration:none;
+    /* transition:1s; */
+}
+.button:hover{
+    background: coral;
+    color:white;
+}
+.block{
+    float: left;
+    width:33.33%;
+    border:1px solid #333;
+    box-sizing: border-box;
+    padding:15px
+}
+.main-block{
+    float: left;
+    width:70%;
+}
+.main-block h1{
+    text-align: center;
+}
+.sidebar{
+    float:right;
+    width:30%;
+    background: #333;
+    color: #f4f4f4;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding:15px;
+}
+.p-box{
+    width:800px;
+    height:500px;
+    border:1px solid #000;
+    margin-top:30px;
+    position: relative;
+    background-image: url('../img/demo.jpg');
+    background-repeat: no-repeat;
+    background-position: 100px 200px;
+    background-position:center top;
+}
+.p-box h1{
+position: absolute;
+top:100px;
+left:100px; 
+}
+.p-box h3{
+    position: absolute;
+    top:70%;
+    left:80%;
+}
+.fix-me{
+    position: fixed;
+    top:400px;
+}
+.my-list li:first-child{
+background: #000;
+color: #f4f4f4;
+}
+.my-list li:last-child{
+    background: #000;
+    color: white;
+    }
+    
+    .my-list li:nth-child(odd){
+        background: aquamarine;
+    }
